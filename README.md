@@ -1,6 +1,8 @@
-[![build status](https://travis-ci.org/eduarias/iot_fog.svg?branch=master)](https://travis-ci.org/eduarias/iot_fog.svg?branch=master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/35759d2891194c6b816ce4d34e54040f)](https://www.codacy.com/app/eduarias/iot_fog?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eduarias/iot_fog&amp;utm_campaign=Badge_Grade) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/35759d2891194c6b816ce4d34e54040f)](https://www.codacy.com/app/eduarias/iot_fog?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=eduarias/iot_fog&amp;utm_campaign=Badge_Coverage)
-
 # Cloud connector installation guide
+
+This project was made with Openmote in mind, so it's using the CoAP library from openwsn-berkeley. this means it can be only used with Python 2.7, to be able to migrate to Python 3 and get realeased of the limitation of this CoAP library, this fork was created to keep compatibility for Openmote, so original project can move on.
+
+If you don't need Openmote, the original project may have different/new features: [Original](https://github.com/eduarias/iot_fog)
 
 ## Install prerequisites
 
